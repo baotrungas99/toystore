@@ -1,0 +1,621 @@
+ @font-face{
+    font-family:'Myriad Pro';
+    src: url(../fonts/MyriadPro-Regular.otf);
+
+}
+@font-face{
+    font-family: Pattaya;
+    src: url(../fonts/Pattaya-Regular.ttf)
+}
+html,body{
+    font-size: 14px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+
+}
+img{
+    max-width: 100%;
+}
+Header
+.navbar-inverse{
+    padding: 5px 0;
+    text-align: center;
+    background-color: black;
+    background-image: none;
+
+}
+.btn_dangnhap{
+    background-color: silver;
+    color: black;
+    border: 1px solid silver;
+    border-radius: 13px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px, 5px;
+    text-decoration: none;
+}
+.navbar-nav a:hover{
+    text-decoration: none;
+    background-color: lightgreen;
+    color: white;
+    
+}
+.btn_dangnhap{
+    background-color: silver;
+    color: black;
+    border: 1px solid silver;
+    border-radius: bold;
+    font-size: 18px;
+    padding: 7px 5px;
+    text-decoration: none;
+
+}
+.navbar-nav a:hover{
+    text-decoration: none;
+    background-color: lightgreen;
+    color: white;
+}
+.wallpaper{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../anhelectro.png) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.text-brand{
+    width: 100%;
+    height: 150px;
+    background: url(../logo.jpg) center no-repeat;
+    position: absolute;
+    top:11%;
+
+}
+content, de can giua dung container
+#content{
+    position: relative;
+    width: 100%;
+    background-color:#e0e0e0;
+    margin-bottom: 350px;
+    height: auto;
+    z-index: 997;
+}
+.khung-anh-tiltedpaga-scroll{
+    width: 100%;
+    top: 50px;
+    height: auto !important;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+
+}
+.main{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.tps-section{
+    width: 100% !important;
+    max-width: 1100px;
+    margin: 0 auto;
+    height: 500px;
+}
+.tps-section .tps-wrapper {
+    border-radius: 30px;
+}
+.tps-section:nth-child(1n+1) .tps-wrapper{
+    background: url(../anh2.jpg) feft center;
+    background-size: cover;
+
+}
+.tps-section:nth-child(3n+1) .tps-wrapper{
+    background: url(../anh2.jpg) center center;
+    background-size: cover;
+}de no chay dc thi phai chen code css va jquery cua no
+
+footer
+.footer{
+    clear: both;
+    margin-top: 100px;
+    position: fixed;
+    bottom: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 100px; 
+    background: blue;
+    color: white;
+}
+.noi-dung-footer{
+    max-width: 500px;
+    width : 1000px;
+    height: 100px; 
+    margin: 0 auto;
+    font-size: 16px;
+
+}
+.noi-dung-footer ul{
+    list-style-type: circle;
+    width :1000px;
+}
+.noi-dung-footer a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 15px;
+
+}
+.cot-1{
+    width: 250px;
+    left: 350px;
+    position: absolute;
+}
+.cot-2{
+    width: 270px;
+    position: absolute;
+    margin-left: 250px;
+
+}
+.cot-3{
+    width: 400px;
+    position: absolute;
+    margin-left: 600px;
+
+}
+.footer button{
+    border: 0px;
+    background:greenyellow;
+    padding: 2px 15x;
+    color: white;
+    font-size: 18px;
+}
+input[type="email"]{
+    width: 250px;
+    height: 30px;
+    padding: 2px 0 ;
+}
+.follow-us{
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 20px;
+}
+.follow-us img{
+    width: 50px;
+    margin-right: 10px;
+
+}
+.thong-tin-so-huu{
+    border-top: 1px solid blue;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    bottom: 0%
+}  
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    margin: 0 auto;
+}
+.top-L{
+    width: 50%;
+    height: 80px;
+    float: left;
+}
+.top-R{
+    width: 40%;
+    height: 80px;
+    float: left;
+}
+.top-R ul li{
+    float: right;
+    list-style-type: none;
+    padding-right: 40px;
+    font-size: 27px;
+    text-align: vertical-align;
+    margin-top: 15px;
+}
+
+.giohang{
+    height: 60px;
+    float: left;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
+.giohang p{
+    margin: 0;
+    }
+.giohang a:link,.giohang a:visited{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+
+}
+.giohang a:hover{
+    color: gray;
+}
+.navbar-nav a:hover{
+    text-decoration: none;
+    background-color: blue;
+    color: black;
+    
+}
+.logo{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+}
+.logo-Left{
+    width: 50%;
+    height: 80px;
+    float: left;
+}
+.logo-Left ul li{
+    list-style-type: none;
+    float: left;
+}
+
+.logo-Right{
+    width: 43%;
+    height: 80px;
+    padding-bottom: 18px;
+    float: left;
+}
+.logo-Right ul li{
+    list-style-type: none;
+    float: right;
+    padding-left: 38px;
+    padding-top: 22px;
+    font-size: 27px;
+}
+.logo-Right ul li a{
+    text-decoration: none;
+    color: #736f6f;
+}
+.logo-Right ul li a:hover{
+    color:black;
+}
+#containSearch{
+    float: left;
+    position: relative;
+    margin-top: 22px;
+    padding-left: 95px;
+}
+#btnsearch{
+    background: url(search.png) no-repeat;
+    display: inline-block;
+    padding-right: 14px;
+    padding-left: 20px;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 31%;
+    right: 0.1%;
+}
+.baner{
+    width: 100%;
+}
+.about{
+    padding-top: 50px;
+    height: 300px;
+}
+.sp1{
+    float:left;
+    padding: 0px 0px 30px 30px;
+ 
+}
+.oneproduct{
+float: left;
+ border: 1px solid black;
+ padding: 10px;
+ margin: 20px;
+
+}
+.hinhproduct img{
+    width: 240px;
+    height: 250px;
+}
+.thongtinproduct{
+    text-align: left;
+    color: black;
+}
+.explore{
+    color: gray;
+    font-size: 14px;
+}
+.info{
+    float:left;
+    width: 25%;
+    height: auto;
+    padding-bottom: 25px;
+}
+.info ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.info ul li a{
+    text-decoration: none;
+}
+.info ul li a:link, .info ul li a:visited{
+    color: gray;
+}
+.info ul li a:hover{
+    color:  #73B6E1;
+}
+.about{
+    height: 350px;
+}
+span.social{
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+    
+}
+span.txtSocial{
+    display: inline-block;
+    padding: 7px;
+    margin-top: -24px;
+    vertical-align: middle;
+    font-size: 16px;
+}#facebook{
+    background: url(s-icons.png) no-repeat;
+    background-position: 0px 0px;
+}
+#Twitter{
+    background: url(s-icons.png) no-repeat;
+    background-position: -34px 0px;
+}
+#Google{
+    background: url(s-icons.png) no-repeat;
+    background-position: -68px 0px;
+}
+.phanvung{
+    width: 100%;
+}
+.childfooter{
+    float: left;
+    width: 50%;
+}
+.Image-left{
+  float: left;
+  width: 30%;
+
+}
+
+
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+Add a background color when the inputs get focus
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+Set a style for all buttons
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  margin: 8px 0;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+Extra styles for the cancel button
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+Float cancel and signup buttons and add an equal width
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+Add padding to container elements
+.container {
+  padding: 16px;
+}
+
+The Modal (background)
+.modal {
+  display: none; Hidden by default
+  position: absolute; Stay in place
+ z-index: 1; Sit on top
+  left: 0;
+  top: 0;
+  width: 100%; Full width
+  height: 100%; Full height
+  overflow: auto; Enable scroll if needed
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+Modal Content/Box
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 5% from the top, 15% from the bottom and centered
+  border: 1px solid #888;
+  width: 80%; Could be more or less, depending on screen size
+}
+
+Style the horizontal ruler
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+The Close Button (x)
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+Clear floats
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+Change styles for cancel button and signup button on extra small screens
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+Full-width input fields
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+Set a style for all buttons
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px;
+  margin: 8px 0;
+  border-radius: 25px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+Extra styles for the cancel button
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+Center the image and position the close button
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: absolute;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+The Modal (background)
+.modal {
+  display: none; Hidden by default
+  position: absolute; Stay in place
+ z-index: 1; Sit on top
+  left: 0;
+  top: 0;
+  width: 100%; Full width
+  height: 100%; Full height
+  overflow: auto; Enable scroll if needed
+  background-color: rgb(0,0,0); Fallback color
+  background-color: rgba(0,0,0,0.4); Black w/ opacity
+  padding-top: 60px;
+}
+
+Modal Content/Box
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 5% from the top, 15% from the bottom and centered
+  border: 1px solid #888;
+  width: 80%; Could be more or less, depending on screen size
+}
+
+The Close Button (x)
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+Add Zoom Animation
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+Change styles for span and cancel button on extra small screens
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+} 
